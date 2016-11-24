@@ -1,10 +1,9 @@
 import Html exposing (Html, button, div, span, text)
-import Html.App as App
 import Html.Events exposing (onClick)
 import Html.Attributes exposing (style)
 
 main =
-    App.beginnerProgram { model = model, view = view, update = update }
+    Html.beginnerProgram { model = model, view = view, update = update }
 
 
 type Color = Red | Blue
